@@ -25,7 +25,7 @@ readFile('./conf.js').then(data=>{
 // 实验性的属性，尽量不要用于生产
 const { promises } = require('fs')
 promises.readFile('./conf.js').then(data=>{
-  console.log('fs promises', data)
+  console.log('fs promises', data.toString())
 })
 
 // generator
