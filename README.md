@@ -38,6 +38,10 @@ async await比promise可读性更强
 
 ### stream
 
+### global
+- 定时器
+- module
+- require
 
 ### 简版express
 解决路由问题 
@@ -45,3 +49,20 @@ async await比promise可读性更强
 npm install express
 
 kExpress理解
+
+node.js
+js运行时，非阻塞I/O 事件循环 
+
+
+## Second Les
+
+### target
+- http协议
+- http服务使用
+- ajax、websocket
+- 跨域、session
+- 爬虫
+- 实时聊天程序
+- https
+- http2
+

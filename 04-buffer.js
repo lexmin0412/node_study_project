@@ -22,7 +22,7 @@ console.log('buffer1', buffer1)
 
 // 读取
 console.log(buffer1.toString())
-// console.log(buffer1.toString('ascii'))  // ascii无法识别中文 所以会出现乱码
+console.log(buffer1.toString('ascii'))  // ascii无法识别中文 所以会出现乱码
 
 // 合并
 const buffer4 = Buffer.concat([buffer1, buffer3])
